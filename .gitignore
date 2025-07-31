@@ -1,0 +1,59 @@
+# -----------------------
+# Python / FastAPI Backend
+# -----------------------
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# -----------------------
+# SwiftUI iOS Frontend
+# -----------------------
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# iOS Pods (if you add CocoaPods later)
+Pods/
+Podfile.lock
+
+# iOS Archives
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# -----------------------
+# General
+# -----------------------
+.idea/
+.vscode/

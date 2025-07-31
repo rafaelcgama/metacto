@@ -1,0 +1,241 @@
+Prompt Log – Feature Voting System
+
+---
+
+User: "For each prompt I give you, write to a file prompts.txt, so I can audit the work."
+Assistant: Confirmed and began logging prompts.
+
+---
+
+User: "What to Build
+You’ll be given the following mini-project:
+Feature Voting System – Let users post a feature and upvote others
+The project must have:
+● A database
+● A backend API
+● A frontend UI: CHOOSE ONE native mobile: iOS or Android
+
+✅ What We’ll Be Evaluating
+We’ll score your project based on:
+Category What We’re Looking For
+Prompting Skills Clear, structured, layered prompts; follow-up iterations
+Tool Orchestration Using AI for DB, backend, frontend, tests, and docs
+System Thinking Logical flow between components; modular and realistic
+Functionality End-to-end flow works (even if basic)
+Multi-Platform Output Working UI for web + mobile (can be basic)
+Debugging / Edge Cases Smart handling of errors or flow problems
+Prompt Logs or Notes Submit the prompts you used, describing what you asked the
+AI to do
+You don’t need styling or pixel-perfect UI. We care about logic, AI collaboration, and your
+decision-making process."
+
+---
+
+User: "before you start building this step-by-step, I like to know if it is possible to use python for the backend or more as much as possible in the project as I am more as I am more comfortable with it. What are the trade offs?"
+
+---
+
+User: "let's go"
+
+---
+
+User: "I need to be able to push this project to github so it needs to organized like a repo where one can download my project and run in their computer"
+
+---
+
+User: "sqlAlchemy"
+
+---
+
+User: "yes"
+
+---
+
+User: "localhost"
+
+---
+
+User: "yes"
+
+---
+
+User: "feature-voting-system/
+│
+├── backend/                 # FastAPI Backend
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── crud.py
+│   │   ├── routes/
+│   │   │   ├── users.py
+│   │   │   ├── features.py
+│   │   │   └── votes.py
+│   ├── requirements.txt
+│   └── README.md
+│
+├── frontend/                # SwiftUI iOS App
+│   ├── FeatureVotingApp/
+│   │   ├── ContentView.swift
+│   │   ├── APIService.swift
+│   │   ├── Models.swift
+│   │   ├── Views/
+│   │   └── FeatureVotingApp.xcodeproj
+│   └── README.md
+│
+├── prompts.txt              # AI prompts log
+└── README.md                # This file
+
+how to make this markdown friendly?"
+
+---
+
+User: "<<ImageDisplayed>>I get this on markdown rendering"
+
+---
+
+User: "how to have the API end point table display properly in markdown?"
+
+---
+
+User: "create a gitignore file for this project"
+
+---
+
+User: "all my .swift files are not recognizing some objects, instance in here: ... highlighted in red in my IDE (Pycharm)"
+
+---
+
+User: "Double-click FeatureVotingApp.xcodeproj opened VScode and not xcode"
+
+---
+
+User: "I am trying to find if xcode is installed in my machine by doing
+xcode-select -p
+and it returns
+/Library/Developer/CommandLineTools
+however I can't seem to find an executable file to open xcode"
+
+---
+
+User: "I need tests for both back and frontend"
+
+---
+
+User: "from app.main import app is not importing app"
+
+---
+
+User: "<<ImageDisplayed>>this is the strucure and it is still not importing"
+
+---
+
+User: "if I open xcode and try to run featurevotingapp by clicking twice nothing happens. How else can I run this file"
+
+---
+
+User: "I get the following error
+The file “FeatureVotingApp.xcodeproj” couldn’t be saved in the folder “FeatureVotingApp”."
+
+---
+
+User: "my FeatureVotingApp.xcodeproj file is empty"
+
+---
+
+User: "what about storage for choorse option for your new project?"
+
+---
+
+User: "<<ImageDisplayed>>this is what I got, how do I run the project now"
+
+---
+
+User: "back end is running and xcode built the project but all it shows is a hello world and a few failures"
+
+---
+
+User: "why didn't we have FeatureListView from the start?"
+
+---
+
+User: "what about addfeatureview.swift? Does that need to be added as well?"
+
+---
+
+User: "<<ImageDisplayed>>all I have now is this screen and those failures..."
+
+---
+
+User: "why there are feature 1 (test desc) and feature 2(desc) if I didn't create anything?"
+
+---
+
+User: "so how do I create users?"
+
+---
+
+User: "yes, I also can't vote via the UI not select users to vote"
+
+---
+
+User: "<<ImageDisplayed>>it didn't change anything in the simulator, I still only have features and the option to add them"
+
+---
+
+User: "<<ImageDisplayed>>still not working and it seems like the target membership is selected correctly"
+
+---
+
+User: "this is the code I have for FeatureListView ..."
+
+---
+
+User: "yes create users should be in the UI"
+
+---
+
+User: "fix indents and brackets ..."
+
+---
+
+User: "I am getting the following error in the backend when creating an user Rafael with email rafael@gmail.com"
+
+---
+
+User: "if I try that I get this
+405 Method Not Allowed..."
+
+---
+
+User: "yes"
+
+---
+
+User: "in the UI I can now create and select the user, But I can vote more than once with the same user in the same feature. How do I prevent the same user to vote more than once in each feature?"
+
+---
+
+User: "yes"
+
+---
+
+User: "If a vote fails with HTTP 400, we show an alert: “You’ve already voted for this feature”
+has this been done yet?"
+
+---
+
+User: "now lets update our python and swift tests to include the lastest changes"
+
+---
+
+User: "my current frontend instructions are: ... let's improve with all the steps we did to get this running on xcode so someone that doesn't know xcode can make it work"
+
+---
+
+User: "you failed to mention to create the files such as APIService that are not in xcode after you open the project file"
+
+---
+
+User: "no, we ran out of time. please give me prompt.txt so I can save in my project for review"
