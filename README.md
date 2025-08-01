@@ -42,7 +42,7 @@ feature-voting-system/
 │   │       ├── 🍎 CreateUserView.swift
 │   │       └── 🍎 FeatureListView.swift       
 │   ├── 🍎 APIService.swift
-│   ├── ⚙️ ContentView.swift
+│   ├── 🍎 ContentView.swift
 │   ├── ⚙️ FeatureVotingApp.xcodeproj
 │   ├── 🍎 FeatureVotingAppApp.swift
 │   └── 🍎 Models.swift
