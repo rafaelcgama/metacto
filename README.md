@@ -46,10 +46,10 @@ feature-voting-system/
 │   ├── ⚙️ FeatureVotingApp.xcodeproj
 │   ├── 🍎 FeatureVotingAppApp.swift
 │   └── 🍎 Models.swift
-├── 📄 .gitignore
-├── 📄 prompts.txt
-├── 📄 README.md
-└── 📄 requirements.txt
+├── 🚫 .gitignore
+├── 💬 prompts.txt
+├── 📖 README.md
+└── 📦 requirements.txt
 ```
 
 
