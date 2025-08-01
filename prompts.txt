@@ -31,7 +31,7 @@ decision-making process."
 
 ---
 
-User: "before you start building this step-by-step, I like to know if it is possible to use python for the backend or more as much as possible in the project as I am more as I am more comfortable with it. What are the trade offs?"
+User: "before you start building this step-by-step, I like to know if it is possible to use python for the backend or as much as possible in the project as I am more familiar and comfortable with it. What are the trade-offs?"
 
 ---
 
@@ -39,7 +39,7 @@ User: "let's go"
 
 ---
 
-User: "I need to be able to push this project to github so it needs to organized like a repo where one can download my project and run in their computer"
+User: "I need to be able to push this project to GitHub so it needs to be organized like a repo where one can download my project and run on their computer"
 
 ---
 
@@ -87,15 +87,17 @@ User: "feature-voting-system/
 ├── prompts.txt              # AI prompts log
 └── README.md                # This file
 
-how to make this markdown friendly?"
+---
+
+User: "how to make this Markdown friendly?"
 
 ---
 
-User: "<<ImageDisplayed>>I get this on markdown rendering"
+User: "<<ImageDisplayed>>I get this on Markdown rendering"
 
 ---
 
-User: "how to have the API end point table display properly in markdown?"
+User: "how to have the API end point table display properly in Markdown?"
 
 ---
 
@@ -103,7 +105,7 @@ User: "create a gitignore file for this project"
 
 ---
 
-User: "all my .swift files are not recognizing some objects, instance in here: ... highlighted in red in my IDE (Pycharm)"
+User: "all my .swift files do not recognize some objects, for instance in here: ... highlighted in red in my IDE (Pycharm)"
 
 ---
 
@@ -111,7 +113,7 @@ User: "Double-click FeatureVotingApp.xcodeproj opened VScode and not xcode"
 
 ---
 
-User: "I am trying to find if xcode is installed in my machine by doing
+User: "I am trying to find if xcode is installed on my machine by doing
 xcode-select -p
 and it returns
 /Library/Developer/CommandLineTools
@@ -127,11 +129,11 @@ User: "from app.main import app is not importing app"
 
 ---
 
-User: "<<ImageDisplayed>>this is the strucure and it is still not importing"
+User: "<<ImageDisplayed>>this is the structure, and it is still not importing"
 
 ---
 
-User: "if I open xcode and try to run featurevotingapp by clicking twice nothing happens. How else can I run this file"
+User: "if I open xcode and try to run featurevotingapp by clicking twice, nothing happens. How else can I run this file?"
 
 ---
 
@@ -144,7 +146,7 @@ User: "my FeatureVotingApp.xcodeproj file is empty"
 
 ---
 
-User: "what about storage for choorse option for your new project?"
+User: "what about storage for choose option for your new project?"
 
 ---
 
@@ -200,11 +202,11 @@ User: "fix indents and brackets ..."
 
 ---
 
-User: "I am getting the following error in the backend when creating an user Rafael with email rafael@gmail.com"
+User: "I am getting the following error in the backend when creating a user Rafael with email rafael@gmail.com"
 
 ---
 
-User: "if I try that I get this
+User: "if I try that, I get this
 405 Method Not Allowed..."
 
 ---
@@ -213,7 +215,7 @@ User: "yes"
 
 ---
 
-User: "in the UI I can now create and select the user, But I can vote more than once with the same user in the same feature. How do I prevent the same user to vote more than once in each feature?"
+User: "in the UI I can now create and select the user, But I can vote more than once with the same user in the same feature. How do I prevent the same user from voting more than once in each feature?"
 
 ---
 
@@ -226,7 +228,7 @@ has this been done yet?"
 
 ---
 
-User: "now lets update our python and swift tests to include the lastest changes"
+User: "now let's update our python and swift tests to include the lastest changes"
 
 ---
 
@@ -234,7 +236,7 @@ User: "my current frontend instructions are: ... let's improve with all the step
 
 ---
 
-User: "you failed to mention to create the files such as APIService that are not in xcode after you open the project file"
+User: "you failed to mention it to create the files such as APIService that are not in xcode after you open the project file"
 
 ---
 
