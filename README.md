@@ -16,31 +16,40 @@ This project includes:
 ```
 feature-voting-system/
 │
-├── backend/                 # FastAPI Backend
+├── backend/
 │   ├── app/
-│   │   ├── main.py
-│   │   ├── database.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   ├── crud.py
 │   │   ├── routes/
-│   │   │   ├── users.py
-│   │   │   ├── features.py
-│   │   │   └── votes.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── frontend/                # SwiftUI iOS App
+│   │   │   ├── 🐍 features.py
+│   │   │   ├── 🐍 users.py
+│   │   │   └── 🐍 votes.py
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 crud.py
+│   │   ├── 🐍 database.py
+│   │   ├── 🐍 main.py
+│   │   ├── 🐍 models.py
+│   │   ├── 🐍 schemas.py
+│   │   ├──tests/
+│   │   │   ├── 🐍 test_features.py
+│   │   │   |── 🐍 test_users.py
+│   │   │   └── 🐍 test_votes.py
+│   │   └── 🐍 __init__.py
+├── frontend/
 │   ├── FeatureVotingApp/
-│   │   ├── ContentView.swift
-│   │   ├── APIService.swift
-│   │   ├── Models.swift
-│   │   ├── Views/
-│   │   └── FeatureVotingApp.xcodeproj
-│   └── README.md
-│
-├── prompts.txt              # AI prompts log
-└── README.md                # Root documentation
+│   │   ├── FeatureVotingAppTests/
+│   │   │   └── 🍎 FeatureVotingAppTests.swift
+│   │   └── Views/
+│   │       ├── 🍎 AddFeatureView.swift
+│   │       ├── 🍎 CreateUserView.swift
+│   │       └── 🍎 FeatureListView.swift       
+│   ├── 🍎 APIService.swift
+│   ├── ⚙️ ContentView.swift
+│   ├── ⚙️ FeatureVotingApp.xcodeproj
+│   ├── 🍎 FeatureVotingAppApp.swift
+│   └── 🍎 Models.swift
+├── 📄 .gitignore
+├── 📄 prompts.txt
+├── 📄 README.md
+└── 📄 requirements.txt
 ```
 
 
